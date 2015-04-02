@@ -4,12 +4,11 @@
   "manifest_version": 2,
   "description": "Encrypt Fields.",
   "permissions": [
-    "tabs", "http://*/*", "https://*/*"
+    "tabs", "http://*/*", "https://*/*", "storage"
   ],
   "browser_action": {
     "default_icon": "icon.png",
 	"default_title": "That's the tool tip",
-	"default_popup": "popup.html",
-	"js":["CryptoJS v3.1.2/rollups/aes.js"]
+	"default_popup": "popup.html"
   }
 }

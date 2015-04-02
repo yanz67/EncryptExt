@@ -1,6 +1,6 @@
 $(function() {
-	$('#firstName').val('sss');
-	var encrypted = CryptoJS.AES.encrypt("Message", "Secret Passphrase");
-	alert(encrypted);
+	var firstName = $('#firstName').val();
+	var encrypted = CryptoJS.AES.encrypt(firstName, "Secret Passphrase");
+	$('#firstName').val(encrypted);
 });
 
