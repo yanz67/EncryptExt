@@ -1,0 +1,3 @@
+$(function() {
+	$('#firstName').val('sss');
+});
